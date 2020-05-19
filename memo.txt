@@ -1,0 +1,12 @@
+application.properties 수정
+pom.xml 수정 추가 - 그래야 spring.mvc.view.suffix= prefix사용할 수 있음
+<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>	
+		</dependency>
+ 그리고 링크참조
+카페 spring_boot_mstf >에2142, 2143 글 참조
