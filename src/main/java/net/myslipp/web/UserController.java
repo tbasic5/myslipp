@@ -30,7 +30,7 @@ public class UserController {
 		model.addAttribute("users", users);
 		return "list";
 	}
-	
+	//brch1
 	
 	
 }
