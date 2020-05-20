@@ -10,3 +10,4 @@ pom.xml 수정 추가 - 그래야 spring.mvc.view.suffix= prefix사용할 수 �
 		</dependency>
  그리고 링크참조
 카페 spring_boot_mstf >에2142, 2143 글 참조
+2-1,2-2,2-3,2-4
