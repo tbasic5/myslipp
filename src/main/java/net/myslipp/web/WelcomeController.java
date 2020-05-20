@@ -14,7 +14,7 @@ public class WelcomeController {
 	public String welcome(String name,Model model) {
 		System.out.println("name : "+name);
 		model.addAttribute("name", name);
-		return "welcome";
+			return "welcome";
 	}
 	@RequestMapping("welcome2")
 	public String welcome2(String name,Model model) {
