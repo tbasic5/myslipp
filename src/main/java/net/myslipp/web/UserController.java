@@ -30,12 +30,5 @@ public class UserController {
 		model.addAttribute("users", users);
 		return "list";
 	}
-	//brch1
 	
-<<<<<<< HEAD
-	//master 1
-	
-=======
-	//brch2
->>>>>>> develop
 }
