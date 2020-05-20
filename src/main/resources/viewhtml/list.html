@@ -20,16 +20,31 @@
 		 		<td>이름</td>
 		 		<td>이메일</td>
 		 	</tr>
+		 	{{#users}}
 		 	<tr>
-		 		<td>아이디</td>
-		 		<td>이름</td>
-		 		<td>이메일</td>
+		 		<td>
+		 		{{#userid}}
+		 			{{userid}}
+		 		{{/userid}}
+		 		</td>
+		 		<td>
+		 		{{#password}}
+		 			{{password}}
+		 		{{/password}}
+		 		</td>
+		 		<td>
+		 		{{#name}}
+		 			{{name}}
+		 		{{/name}}
+		 		</td>
 		 	</tr>
-		 	
+		 	{{/users}}
 		 
 		 </table>
     </div>
-	
+    <div>
+    <a href="joinform.html">회원가입</a> <br />
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

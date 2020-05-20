@@ -6,6 +6,16 @@
 </head>
 <body>
 <h1>view2.html</h1>
+{{#jsons}} <!-- 반복 -->
+	{{tag}} <br />
+	{{#flag}} <!-- 조건 -->
+	참 <br />
+	{{/flag}}
+	{{^flag}}
+	거짓 <br />
+	{{/flag}}
+	
+{{/jsons}}
 
 </body>
 </html>
